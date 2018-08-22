@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c055897-fe3a-43d4-8d59-8215312b189d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/pages/Auth/Auth.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/pages/Auth/Auth.pcss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/pages/Auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/pages/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/pages/Auth2/Auth2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/pages/Auth2/Auth2.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.pcss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/pages/Auth2/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/pages/Gallery/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack/local.sample.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack/local.sample.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/pages/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/pages/Home/Home.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/pages/Home/Home.pcss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,12 +18,30 @@
       <file leaf-file-name="Gallery.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="126">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#206#238#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpack/base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="99" column="12" lean-forward="true" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.sample.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpack/local.sample.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -68,8 +67,8 @@
       <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/shared/pages/Home/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="252">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -122,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.jsx" />
         <option value="$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.pcss" />
         <option value="$PROJECT_DIR$/src/shared/pages/Home/Home.pcss" />
+        <option value="$PROJECT_DIR$/config/webpack/local.sample.js" />
         <option value="$PROJECT_DIR$/src/shared/pages/Home/Home.jsx" />
       </list>
     </option>
@@ -157,6 +157,17 @@
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -280,12 +291,12 @@
       <option name="presentableId" value="Default" />
       <updated>1534924559021</updated>
       <workItem from="1534924560939" duration="664000" />
-      <workItem from="1534927271099" duration="7231000" />
+      <workItem from="1534927271099" duration="8898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7895000" />
+    <option name="totallyTimeSpent" value="9562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -428,28 +439,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="99" column="12" lean-forward="true" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/shared/components/AuthSuccess/AuthSuccess.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#206#238#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -467,10 +460,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#206#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="99" column="12" lean-forward="true" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack/local.sample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/shared/pages/Home/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="252">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
