@@ -1,10 +1,8 @@
 import React, {Component} from 'react';
 import PropTypes from "prop-types";
+import { Link } from 'react-router-dom';
 import withStyles from '@plasma-platform/isomorphic-style-loader/lib/withStyles';
 import classNames from 'classnames';
-
-import AuthAccount from 'Components/AuthAccount/';
-import AuthSuccess from 'Components/AuthSuccess/';
 
 import styles from './AuthWindow.pcss';
 
@@ -64,7 +62,6 @@ class AuthWindow extends Component {
 
   render() {
     const {
-      successEmail,
       error,
     } = this.state;
 
@@ -75,15 +72,11 @@ class AuthWindow extends Component {
         styles.AuthWindow,
         styles['AuthWindow--flipped'],
       )}>
-        <div className={classNames(
-          styles.AuthWindow__animation,
-          {
-            [styles['AuthWindow__animation--flipped']]: successEmail,
-          }
-        )}>
-          <AuthAccount back={successEmail}/>
-          <AuthSuccess />
-        </div>
+        <Link
+          className={styles.AuthWindow__link}
+          id="page2"
+          to={`/page2/`}
+        >Page2 </Link>
       </main>
     )
   }
