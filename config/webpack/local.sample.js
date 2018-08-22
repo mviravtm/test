@@ -15,7 +15,6 @@ module.exports = {
     historyApiFallback: true,
     disableHostCheck: true,
     open: true,
-    https: true,
   },
   entry: [
     'babel-polyfill',
