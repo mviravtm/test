@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { translate } from 'react-i18next';
 import { Switch, Route } from 'react-router-dom';
 import Auth from 'shared/pages/Auth/';
-import Page2 from 'shared/pages/Page2/';
 
 export class App extends Component {
   static propTypes = {
@@ -40,7 +39,6 @@ export class App extends Component {
       <div>
         <Switch>
           <Route exact path='/' component={Auth} />
-          <Route exact path='/page2/' component={Page2} />
         </Switch>
       </div>
     );

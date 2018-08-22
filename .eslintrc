@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "worker": true,
+    "serviceworker": true,
+    "es6": true
+  },
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "parser": "babel-eslint",
+  "globals": {
+    "FontFaceObserver": true,
+    "fontFaceSet": true
+  },
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import",
+    "jest"
+  ],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.config.js"
+      }
+    }
+  }
+}
