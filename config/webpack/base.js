@@ -101,7 +101,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(svg|png)$/,
+        test: /\.(svg|png|jpg)$/,
         include: /(images)/,
         use: 'url-loader',
       },

@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c055897-fe3a-43d4-8d59-8215312b189d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/components/AuthWindow/AuthWindow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/AuthWindow/AuthWindow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/pages/Auth/Auth.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/pages/Auth/Auth.pcss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/pages/Auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/pages/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/pages/Auth2/Auth2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/pages/Auth2/Auth2.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.pcss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/pages/Auth2/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/pages/Gallery/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/pages/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/pages/Home/Home.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/pages/Home/Home.pcss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,20 +34,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Auth2.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shared/pages/Auth2/Auth2.jsx">
+      <file leaf-file-name="Gallery.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#206#238#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gallery.pcss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.pcss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <caret line="7" column="26" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shared/components/App/App.jsx">
+      <file leaf-file-name="AuthAccount.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/components/AuthAccount/AuthAccount.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="42" column="36" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="36" />
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/shared/pages/Home/Home.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -36,53 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Auth.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shared/pages/Auth/Auth.jsx">
+      <file leaf-file-name="Home.pcss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/pages/Home/Home.pcss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthWindow.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shared/components/AuthWindow/AuthWindow.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="123" column="16" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shared/pages/Auth2/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="90">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -94,6 +93,11 @@
       <find>esli</find>
       <find>lint</find>
       <find>route</find>
+      <find>Home</find>
+      <find>images</find>
+      <find>&lt;img</find>
+      <find>Images</find>
+      <find>mailIllustration</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,9 +111,18 @@
         <option value="$PROJECT_DIR$/src/client/index.jsx" />
         <option value="$PROJECT_DIR$/src/shared/pages/Auth2/index.js" />
         <option value="$PROJECT_DIR$/src/shared/pages/Auth2/Auth2.jsx" />
-        <option value="$PROJECT_DIR$/src/shared/components/App/App.jsx" />
         <option value="$PROJECT_DIR$/src/shared/components/AuthWindow/AuthWindow.jsx" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/shared/pages/Auth/Auth.pcss" />
+        <option value="$PROJECT_DIR$/src/shared/pages/Auth/Auth.jsx" />
+        <option value="$PROJECT_DIR$/src/shared/pages/Home/index.js" />
+        <option value="$PROJECT_DIR$/src/shared/pages/Gallery/index.js" />
+        <option value="$PROJECT_DIR$/src/shared/components/App/App.jsx" />
+        <option value="$PROJECT_DIR$/config/webpack/base.js" />
+        <option value="$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.jsx" />
+        <option value="$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.pcss" />
+        <option value="$PROJECT_DIR$/src/shared/pages/Home/Home.pcss" />
+        <option value="$PROJECT_DIR$/src/shared/pages/Home/Home.jsx" />
       </list>
     </option>
   </component>
@@ -128,10 +141,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-122" />
+    <option name="x" value="1985" />
     <option name="y" value="-4" />
-    <option name="width" value="1853" />
-    <option name="height" value="1076" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -161,6 +174,21 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -177,7 +205,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="shared" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="AuthWindow" type="462c0819:PsiDirectoryNode" />
+              <item name="AuthAccount" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -192,7 +220,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="shared" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Auth" type="462c0819:PsiDirectoryNode" />
+              <item name="Gallery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,14 +241,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../4-Plasma-Authorization-App" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shared/assets/images" />
       <recent name="$PROJECT_DIR$/src/shared/pages" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -240,15 +280,15 @@
       <option name="presentableId" value="Default" />
       <updated>1534924559021</updated>
       <workItem from="1534924560939" duration="664000" />
-      <workItem from="1534927271099" duration="4263000" />
+      <workItem from="1534927271099" duration="7231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4927000" />
+    <option name="totallyTimeSpent" value="7895000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -261,6 +301,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959569" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -270,7 +311,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,13 +361,6 @@
     <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/pages/Auth2/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -335,47 +368,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/pages/Auth2/Auth2.jsx">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        <state relative-caret-position="216">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/components/App/App.jsx">
+    <entry file="file://$PROJECT_DIR$/src/shared/components/AuthWindow/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="42" column="36" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="36" />
+        <state relative-caret-position="162">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/pages/Auth/Auth.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/shared/components/AuthWindow/AuthWindow.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+        <state relative-caret-position="593">
+          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="78" selection-end-column="22" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/shared/pages/Home/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="432">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/pages/Home/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/pages/Gallery/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/components/App/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/components/AuthAccount/AuthAccount.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="99" column="12" lean-forward="true" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/components/AuthSuccess/AuthSuccess.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#206#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/pages/Gallery/Gallery.pcss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/pages/Home/Home.pcss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/pages/Home/Home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

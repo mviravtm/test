@@ -1,28 +1,28 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 import withStyles from '@plasma-platform/isomorphic-style-loader/lib/withStyles';
 import { Link } from 'react-router-dom';
 
 import styles from './Home.pcss';
 
-const Home = (props, context) => {
-  const { t } = context;
+class Home extends Component {
+  state = {
+    error: false,
+  };
 
-  return (
-    <div className={styles.Home}>
-      <Link
-        aria-label="Account"
-        className={styles.Home__linkAuth}
-        to="/"
-      >
-        {t('Account')}
-      </Link>
-    </div>
-  )
-};
+  render() {
 
-Home.contextTypes = {
-  t: PropTypes.func,
-};
+    return (
+      <div className={styles.Home}>
+        <Link
+          className={styles.Home__link}
+          id="galleryLink"
+          to={`/gallery/`}
+        >
+          Gallery Page
+        </Link>
+      </div>
+    )
+  }
+}
 
 export default withStyles(styles)(Home);
