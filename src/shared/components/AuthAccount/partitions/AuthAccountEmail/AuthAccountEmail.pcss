@@ -1,0 +1,53 @@
+@import '@plasma-platform/tm-css/helpers.pcss';
+
+.AuthAccountEmail {
+  box-shadow: inset 0 1px 0 $color_main_4;
+  position: relative;
+
+  &__avatar {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    &--show {
+      display: block;
+    }
+  }
+
+  &__email {
+    position: relative;
+
+    &--invalid {
+      position: absolute;
+      right: 20px;
+      transform: translateY(-50%);
+      top: 50%;
+    }
+  }
+
+  &__notification {
+
+    @mixin T 3;
+    text-align: left;
+    width: 100%;
+
+    &:before {
+      color: $color_error_active;
+    }
+
+    &Text {
+
+      color: $color_white;
+      white-space: pre-wrap;
+
+      &--inside {
+        display: block;
+      }
+    }
+  }
+
+  html & [class*='TMField__icon--typeValidationStatus'] {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+@import '@plasma-platform/tm-css/helpers.pcss';
+
+.AuthAccountFB {
+  position: relative;
+
+  &__notification {
+
+    @mixin T 3;
+    text-align: left;
+    width: 100%;
+
+    &:before {
+      color: $color_error_active;
+    }
+
+    &Text {
+      color: $color_white;
+      white-space: pre-wrap;
+    }
+  }
+}

@@ -1,0 +1,99 @@
+@import '@plasma-platform/tm-css/helpers.pcss';
+
+.AuthSuccess {
+  backface-visibility: hidden;
+  background: $color_white;
+  box-shadow: 0 20px 40px rgba(36,50,56,.2);
+  height: auto;
+  position: absolute;
+  text-align: center;
+  transform: rotateY(180deg);
+  overflow: hidden;
+  width:100%;
+
+  &:before {
+    background: url('Images/bgLineSuccess_horizontal.png');
+    content: '';
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  &:after {
+    background: url('Images/bgLineSuccess_horizontal.png');
+    bottom: 0;
+    content: '';
+    height: 5px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  &--fb {
+
+    &:before,
+    &:after {
+      background: none;
+      height: 0;
+    }
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__bg {
+    height: 100%;
+    padding: $gap_middle;
+    position: relative;
+    width: 100%;
+
+    &:before {
+      background: url('Images/bgLineSuccess_vertical.png');
+      content: '';
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 5px;
+    }
+
+    &:after {
+      background: url('Images/bgLineSuccess_vertical.png');
+      top: 0;
+      content: '';
+      height: 100%;
+      position: absolute;
+      right: 0;
+      width: 5px;
+    }
+
+    &--fb {
+      padding: 60px $gap_middle;
+
+      &:before,
+      &:after {
+        background: none;
+        height: 0;
+      }
+    }
+  }
+
+  &__title {
+
+    @mixin H 2;
+    margin: $gap_small auto $gap_min;
+  }
+
+  &__describe {
+
+    @mixin T 1;
+  }
+
+  [class*='AuthSuccess__describeText--mail'] {
+    font-weight: bold;
+  }
+}

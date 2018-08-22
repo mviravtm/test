@@ -1,0 +1,78 @@
+@import '@plasma-platform/tm-css/helpers.pcss';
+
+.AuthAccount {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  min-height: 400px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: opacity .8s $easeInOutQuint;
+
+  &--back {
+
+    @mixin uninteractable;
+    opacity: 0;
+  }
+
+  &__authForm {
+    background: $color_white;
+    border-radius: $border_radius;
+    box-shadow: 0 20px 40px rgba(36, 50, 56, 0.2);
+  }
+
+  &__image {
+    margin-bottom: $gap_small;
+  }
+
+  &__form {
+    padding: $gap_middle;
+  }
+
+  &__title {
+
+    @mixin H 2;
+    margin-bottom: $gap_small;
+
+    &--fb {
+      margin-bottom: $gap_min;
+    }
+  }
+
+  &__describe {
+    margin-bottom: $gap_small;
+  }
+
+  &__button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    [class*='TMButton__icon'] {
+      fill: $color_white;
+    }
+
+    &--disabled {
+      [class*='TMButton__icon'] {
+        fill: $color_main_5;
+      }
+    }
+  }
+
+  &__line {
+    background: url('Images/line.svg') repeat-x center;
+    margin: 30px 0;
+
+    &Text {
+
+      @mixin T 1;
+      background: $color_white;
+      color: $color_main_7;
+      font-family: 'BadScript';
+      padding: 0 $gap_min;
+    }
+  }
+}
